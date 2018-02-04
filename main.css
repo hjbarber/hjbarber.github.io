@@ -81,6 +81,11 @@ table, td {
     display: block;
 }
 
+/* Little hack to make menu work on moblie */
+.dropdown:click .dropdown-content {
+    display: block;
+}
+
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: grey;
