@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Oed und leer das meer</title>
+<link rel="stylesheet" type="text/css" href="../css/styleMain.css">
+        <script>
+        function showText(id,delay){
+          var elem=document.getElementById(id);
+          setTimeout(function(){
+            elem.style.visibility='visible';
+          }, delay*1050)
+        }
+        window.onload=function(){
+          showText('delayedText1', 1);
+          showText('delayedText2', 3);
+          showText('delayedText3', 5);
+          showText('delayedBox', 6);
+                }
+
+          </script>
+
+</head>
+<body>
+
+<div id="delayedText1" style="visibility:hidden">Well done.</div>
+<div id="delayedText2" style="visibility:hidden">Move steadily forward.</div>
+<div id="delayedText3" style="visibility:hidden"><a href="training.html">Continue.</a></div>
+
+
+
+
+</body>
+</html>

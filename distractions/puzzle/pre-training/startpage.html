@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Empezamos</title>
+<style type="text/css">
+            body,td,th {
+                font-family: Verdana, Calibri, Frutiger, Geneva, sans-serif;
+                color: #FFF;
+                background-color: #000;
+                font-size: 12px;
+                text-align:center;
+            }
+            a {
+            	color:#FFFFFF;
+            }
+            #counterimg {
+                height: 30px;
+            }
+            .quote1,.quote2 {
+                width: 500px;
+                margin-left: auto ;
+                margin-right: auto ;
+            }
+            .quote1 {
+                color:#B7D4FF;
+            }
+            .quote2 {
+                color:#FFFFFF;
+            }
+            .darker,.darker a {
+                color:#888;
+                font-size:10px;
+                text-align:center;
+            }
+        </style>
+
+<script>
+function showText(id,delay){
+  var elem=document.getElementById(id);
+  setTimeout(function(){
+    elem.style.visibility='visible';
+  }, delay*1050)
+}
+window.onload=function(){
+  showText('delayedText1', 2);
+  showText('delayedText2', 3);
+  showText('delayedText3', 4);
+  showText('delayedText4', 6);
+  showText('delayedText5', 8);
+  showText('delayedText6', 10);
+  showText('image', 11);
+  }
+</script>
+</head>
+<body>
+
+<div id="delayedText1" style="visibility:hidden">you awaken in a room</div>
+<div id="delayedText2" style="visibility:hidden">as pitch as night</div>
+<div id="delayedText3" style="visibility:hidden">as empty as dreams</div><br><br><br>
+<div id="delayedText4" style="visibility:hidden">a shadow grows from the corner</div>
+<br><br><br><br><br><br><br>
+<div id="delayedText5" style="visibility:hidden">This is your first task:</div>
+<div id="delayedText6" style="visibility:hidden"><h1>Face your fear</h1></div>
+<div id="image" style="visibility:hidden"><map name="no">
+  <img src="../Images/images-35.jpg" usemap="#no">
+  <area shape="poly" coords="126,43,125,62,110,78,104,177,152,181,153,78,144,48" href="page1.html">
+</map>
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Oed und leer das meer</title>
+<link rel="stylesheet" type="text/css" href="../css/styleMain.css">
+        <script>
+        function showText(id,delay){
+          var elem=document.getElementById(id);
+          setTimeout(function(){
+            elem.style.visibility='visible';
+          }, delay*1050)
+        }
+        window.onload=function(){
+          showText('delayedText1', 2);
+          showText('delayedText2', 3);
+          showText('delayedImage', 4);
+          }
+        </script>
+
+</head>
+<body>
+<div id="delayedText1" style="visibility:hidden">Your success depends not on your wit, but on your perseverence.</div>
+<div id="delayedText2" style="visibility:hidden">It will also require skill. Select an image below to choose your path:</div>
+<div id="delayedImage" style="visibility:hidden">
+   <!--
+--><a href="../logic/one.html"><img src="../Images/logic.jpg" usemap="#no" name="myImage1" alt="Logic" onMouseOver="document.myImage1.src='../Images/logictext1.jpg';" onMouseOut="document.myImage1.src='../Images/logic.jpg';"></a><!--
+--><!--
+--><!--
+--><a href="../research/who.html"><img src="../Images/research.jpg" usemap="#no" name="MyImage2" alt="Research" onMouseOver="document.MyImage2.src='../Images/researchtext.jpg';" onMouseOut="document.MyImage2.src='../Images/research.jpg';"></a><!--
+--><!--
+--><a href="../tools/tools1.html"><img src="../Images/abstraction.jpg" usemap="#no" name="MyImage3" href="../who.html" onMouseOver="document.MyImage3.src='../Images/toolstext.jpg';" onMouseOut="document.MyImage3.src='../Images/abstraction.jpg';"></a>
+<br /><br /><p><a href="../faq/howto.html">Some quick tips.</a></p>
+</div>
+</body>
+</html>

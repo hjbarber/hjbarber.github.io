@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>L.1: Out of the frying pan</title>
+<link rel="stylesheet" type="text/css" href="../css/styleMain.css">
+        <script>
+        function showText(id,delay){
+          var elem=document.getElementById(id);
+          setTimeout(function(){
+            elem.style.visibility='visible';
+          }, delay*1050)
+        }
+        window.onload=function(){
+          showText('delayedText', 1);
+          showText('delayedText2', 3);
+          showText('delayedText3', 5);
+          showText('door', 7);
+          }
+        </script>
+
+</head>
+<body>
+  <p>you are trapped</p><br>
+  <p>the room has a door</p><br>
+  <p>hopefully, it opens.</p><br>
+  <img src="../Images/researchdoor.jpg" usemap="#map">
+    <map name="map" id="map">
+      <area href="tools2loaded.html" shape="poly" coords="115,203,116,466,265,466,250,202">
+    </area>
+  </map>
+
+
+</body>
+</html>

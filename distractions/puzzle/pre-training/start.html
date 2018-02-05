@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Oed und leer das meer</title>
+<link rel="stylesheet" type="text/css" href="../css/styleMain.css">
+        <script>
+        function showText(id,delay){
+          var elem=document.getElementById(id);
+          setTimeout(function(){
+            elem.style.visibility='visible';
+          }, delay*1050)
+        }
+        window.onload=function(){
+          showText('delayedText', 2);
+          showText('alerts', 4);
+          }
+        </script>
+
+</head>
+<body>
+  <div id="delayedText" style="visibility:hidden">are you frightened?</div><br>
+<div id="alerts" style="visibility:hidden"> <button onclick="myFunction()">Yes</button>
+<a href = "startpage.html">  <button onclick="continue()">No</button></a></div>
+<script>
+
+function myFunction() {
+  confirm("you are right to be.");
+}
+
+</script>
+
+</body>
+</html>

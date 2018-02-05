@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>L.3 Into(not)the(pron)Fire</title>
+<link rel="stylesheet" type="text/css" href="../css/styleMain.css">
+<script>
+function showText(id,delay){
+  var elem=document.getElementById(id);
+  setTimeout(function(){
+    elem.style.visibility='visible';
+  }, delay*1050)
+}
+window.onload=function(){
+  showText('delayedText1', 2);
+  showText('delayedText2', 3);
+  showText('delayedText3', 4);
+  showText('delayedText4', 5);
+  showText('delayedText5', 6);
+  showText('delayedText6', 7);
+  }
+</script>
+
+  </head>
+  <body>
+<div id="delayedText1" style="visibility:hidden">don't worry.</div>
+<div id="delayedText2" style="visibility:hidden">we're not just going to sit around<br>telling riddles.</div>
+<div id="delayedText3" style="visibility:hidden">take a look at these photographs (after I add them)</div>
+
+
+  </body>
+</html>
