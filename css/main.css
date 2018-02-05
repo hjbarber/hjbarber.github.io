@@ -1,14 +1,7 @@
-p {
-    color: white;
-  font-size: 30px;
-  position: relative;
-  margin: 0 auto;
-}
-
 body {
-    background-color: black;
-    font-family: "Courier New", Courier, monospace;
-    color: white;
+	background-color: black;
+	font-family: "Courier New", Courier, monospace;
+	color: white;
 }
 a:link {
 	color: white;
@@ -33,11 +26,6 @@ h1 {
 	color: white;
 	text-align: center;
 
-}
-
-h2 {
-    color: white;
-    text-align: left;
 }
 
 table, td {

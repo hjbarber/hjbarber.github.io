@@ -1,0 +1,22 @@
+body {
+	background-color: black;
+	font-family: "Courier New", Courier, monospace;
+	color: white;
+}
+
+p {
+    color: white;
+  font-size: 30px;
+  position: relative;
+  margin: 0 auto;
+}
+
+h2 {
+	color: white;
+	text-align: left;
+}
+
+table, td {
+	border-collapse: collapse;
+	border: 1px solid grey;
+}
