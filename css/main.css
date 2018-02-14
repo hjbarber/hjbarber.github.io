@@ -33,3 +33,10 @@ table, td {
   /* border: 1px solid red; */
     text-align: left bottom;
 }
+
+p {
+    color: white;
+  font-size: 12px;
+  position: relative;
+  margin: 0 auto;
+}
