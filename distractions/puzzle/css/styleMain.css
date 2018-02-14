@@ -1,0 +1,37 @@
+body,td,th {
+    font-family: Verdana, Calibri, Frutiger, Geneva, sans-serif;
+    color: #FFF;
+    background-color: #000;
+    font-size: 12px;
+    text-align:center;
+
+h1 {
+    color: white;
+    margin-left: 20px;
+}
+
+p {
+  color: white;
+  align: left;
+
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
